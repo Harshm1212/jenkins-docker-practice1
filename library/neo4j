@@ -1,0 +1,34 @@
+# Old point releases are included in this library file so that users
+# are not forced to upgrade to the latest point releases in order to
+# get security fixes to the base image. See
+# https://github.com/docker-library/official-images/issues/1864 for a
+# discussion of this point.
+
+Maintainers: Jenny Owen <jenny.owen@neo4j.com> (@jennyowen),
+             Bledi Feshti <bledi.feshti@neo4j.com> (@bfeshti),
+             Eric Sporre <eric.sporre@neo4j.com> (@ericsporre)
+GitRepo: https://github.com/neo4j/docker-neo4j-publish.git
+
+
+Tags: 5.6.0, 5.6.0-community, 5.6, 5.6-community, 5, 5-community, community, latest
+Architectures: amd64, arm64v8
+GitCommit: 5e0122d70f6407707b3ae70e6ef91a1fb3fd2f61
+Directory: 5.6.0/community
+
+Tags: 5.6.0-enterprise, 5.6-enterprise, 5-enterprise, enterprise
+Architectures: amd64, arm64v8
+GitCommit: 5e0122d70f6407707b3ae70e6ef91a1fb3fd2f61
+Directory: 5.6.0/enterprise
+
+
+Tags: 4.4.19, 4.4.19-community, 4.4, 4.4-community
+Architectures: amd64, arm64v8
+GitCommit: 5342ba80874c712680dfaf5be3e44cd37ca5d1f8
+Directory: 4.4.19/community
+
+Tags: 4.4.19-enterprise, 4.4-enterprise
+Architectures: amd64, arm64v8
+GitCommit: 5342ba80874c712680dfaf5be3e44cd37ca5d1f8
+Directory: 4.4.19/enterprise
+
+
